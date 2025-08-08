@@ -1,0 +1,33 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+  - Class: rviz/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Enabled: true
+      Name: UAV1
+      Robot Description: uav1/robot_description
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Enabled: true
+      Name: UAV2
+      Robot Description: uav2/robot_description
+    - Alpha: 1
+      Class: rviz/RobotModel
+      Enabled: true
+      Name: UAV3
+      Robot Description: uav3/robot_description
+  Global Options:
+    Background Color: 0; 0; 0
+    Fixed Frame: world
+  Views:
+    Current:
+      Class: rviz/Orbit
+      Distance: 20
+      Focal Point: 0; 0; 0
+      Pitch: 0.785
+      Yaw: 0.785
